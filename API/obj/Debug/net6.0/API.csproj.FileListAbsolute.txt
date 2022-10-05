@@ -264,3 +264,5 @@ C:\Users\SULAIMAN\myinfo\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Dr
 C:\Users\SULAIMAN\myinfo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\SULAIMAN\myinfo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\SULAIMAN\myinfo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\SULAIMAN\myinfo\api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\SULAIMAN\myinfo\api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

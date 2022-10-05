@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj": {}
+    "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj": {
+    "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj",
+        "projectUniqueName": "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj",
+        "projectPath": "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj",
         "packagesPath": "C:\\Users\\SULAIMAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SULAIMAN\\myinfo\\api\\obj\\",
+        "outputPath": "c:\\Users\\SULAIMAN\\myinfo\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SULAIMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +42,10 @@
             "Microsoft.AspNet.WebApi.Cors": {
               "target": "Package",
               "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -71,6 +74,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.1, )"
             }
           },
           "imports": [
