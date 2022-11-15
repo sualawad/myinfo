@@ -1,0 +1,71 @@
+<nav  class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+    <div class="container">
+        <form *ngIf="(accountService.currentUser$  | async) === null" #loginForm="ngForm" class="form-inline mt-2 mt-md-0"  (ngSubmit)="login()"
+         autocomplete="off">
+            <input 
+            name="username"
+            [(ngModel)]="model.username"
+             class="form-control me-2"
+             type="text" 
+             placeholder=" إسم المستخدم" >
+            <input 
+            name="password"
+            [(ngModel)]="model.password"
+            class="form-control me-2" 
+            type="Password"
+             placeholder="كلمة السر" >
+            <button class="btn btn-outline-success" type="submit">دخول</button>
+          </form>
+  
+          <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
+            <a  class="dropdown-toggle text-light" dropdownToggle>مرحبا user</a>
+            <div class="dropdown-menu mt-3"*dropdownMenu>
+              <a  class="dropdown-item">تعديل </a>
+              <div class="dropdown-divider"></div>
+              <a  class="dropdown-item" (click)="logout()">خروج </a>
+            </div>
+          </div>
+ 
+          <ul class="navbar-nav me-auto" *ngIf="accountService.currentUser$ | async">
+       
+            <li class="nav-item">
+              <a class="nav-link active"  href="#">الرواتب</a>
+        </li>
+
+          <li class="nav-item">
+                <a class="nav-link active"  href="#">الإنتدابات</a>
+          </li>
+           
+          <li class="nav-item">
+                <a class="nav-link active"  href="#">الجزائات</a>
+          </li>
+          
+          <li class="nav-item">
+                <a class="nav-link active"  href="#">خارج الدوام</a>
+          </li>
+
+          <li class="nav-item">
+          <a class="nav-link active"  href="#">الأنواط</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link href=#">الإجازات</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">المعلومات الشخصية</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active"  href="#">الرئيسية</a>
+          </li>
+        </ul>
+
+          <a class="navbar-brand" href="#">معلوماتي</a>
+
+    </div>
+
+     
+
+  </nav>

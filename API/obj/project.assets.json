@@ -9896,11 +9896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj",
+      "projectPath": "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj",
       "packagesPath": "C:\\Users\\SULAIMAN\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SULAIMAN\\myinfo\\API\\obj\\",
+      "outputPath": "C:\\Users\\SULAIMAN\\myinfo\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SULAIMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9910,6 +9910,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fKuDuQNYb7w+XcQHDKpPKzrWhVwX9lOrP6jlVcQrnBQvAuEUkktTLFBeOS7UWD0EX7vtjThWKYakmgn6UFacZA==",
+  "dgSpecHash": "cQQFimC3L/O2WCrr8r4ePIoryAs/RMnlvbdTsXD2vVl5I1ruAztVnV9bTq3vnWByjiROL3+B2ZVskcUk0f5zag==",
   "success": true,
-  "projectFilePath": "c:\\Users\\SULAIMAN\\myinfo\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\SULAIMAN\\myinfo\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SULAIMAN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SULAIMAN\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
